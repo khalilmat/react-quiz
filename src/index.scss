@@ -1,0 +1,47 @@
+h1 {
+  cursor: pointer;
+}
+
+.card {
+  cursor: pointer;
+  color: #ffffff;
+  box-shadow: 5px 5px 15px 5px #bbbbbb;
+
+  &--bg-green {
+    background-color: #006b77 !important;
+    border-color: #006b77 !important;
+  }
+
+  &--bg-yellow {
+    background-color: #fbb14e !important;
+    border-color: #fbb14e !important;
+  }
+
+  &--bg-red {
+    background-color: #f08d76 !important;
+    border-color: #f08d76 !important;
+  }
+}
+
+.list-group {
+  &:not(.disabled) {
+    .list-group-item:hover {
+      background: #1c6ea4;
+      color: #ffffff;
+    }
+  }
+
+  .list-group-item {
+    cursor: pointer;
+
+    &.correct {
+      background-color: #68d388;
+      color: #ffffff;
+    }
+
+    &.incorrect {
+      background-color: #ff0028;
+      color: #ffffff;
+    }
+  }
+}
